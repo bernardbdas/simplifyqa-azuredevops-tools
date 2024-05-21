@@ -1,0 +1,5 @@
+.vscode/
+.trunk/
+
+*.vsix
+*.txt

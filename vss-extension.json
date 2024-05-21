@@ -1,0 +1,40 @@
+{
+  "manifestVersion": 1,
+  "id": "simplifyqa-azuredevops-tools",
+  "name": "SimplifyQA",
+  "version": "1.0.0",
+  "publisher": "SIMPLIFY3XSOFTWAREPRIVATELIMITED",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "SimplifyQA Azure DevOps Extension",
+  "public": true,
+  "categories": ["Azure Pipelines"],
+  "icons": {
+    "default": "images/extension-icon.png"
+  },
+  "files": [
+    {
+      "url": "",
+      "path": "simplifyqa-pipeline-executor"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "simplifyqa-pipeline-executor",
+      "type": "ms.vss-distributed-task.task",
+      "targets": ["ms.vss-distributed-task.tasks"],
+      "properties": {
+        "name": "simplifyqa-pipeline-executor"
+      }
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "keywords": ["sqa", "simplifyqa", "pipeline", "connector", "simplify3x"]
+}

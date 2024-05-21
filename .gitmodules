@@ -1,0 +1,3 @@
+[submodule "simplifyqa-pipeline-executor"]
+	path = simplifyqa-pipeline-executor
+	url = https://github.com/bernardbdas/simplifyqa-pipeline-executor-nodejs.git
