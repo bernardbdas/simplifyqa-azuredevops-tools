@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "simplifyqa-azuredevops-tools",
   "name": "SimplifyQA",
-  "version": "1.0.21",
+  "version": "1.0.23",
   "publisher": "SIMPLIFY3XSOFTWAREPRIVATELIMITED",
   "targets": [
     {
